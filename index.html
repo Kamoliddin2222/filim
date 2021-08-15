@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+    rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="./sass/main.css">
+</head>
+<body>
+    <header class="header">
+            <form class="form" id="form">
+                <h1 class="header__title">UZMOVI.com</h1>
+                    <div class="form-logo">
+                        <input class="header__input" placeholder="filim izlash.." type="text" id="input">
+                        <select class="header__janer" name="select" id="select">
+                            <option value="All">All</option>
+                        </select>
+                        <button class="header__btn" type="submit">Search</button>
+                    </div>
+            </form>
+            <ul class="header__list"></ul>
+    </header>
+    <div class="madal ">
+        <div class="content animate__animated animate__backInDown">
+                <h2 class="madal__item-img animate__animated animate__jello animate__delay-2s"></h2>
+                <p class="modal__dickireption"></p>
+                <h3 class="time"></h3>
+               <button class="button-madal" type="submit">&times;</button>
+        </div>
+    </div>
+
+
+    
+    <script src="./js/films.js"></script>
+    <script src="./js/main.js"></script>
+
+</body>
+</html>
