@@ -245,7 +245,128 @@ body {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    max-width: 1200px;
+    max-width: 370px;
+    margin: 0 auto;
+  }
+  .header .header__title {
+    font-size: 45px;
+    padding-top: 20px;
+  }
+  .header .form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 80px;
+  }
+  .header .form .header__title {
+    font-size: 25px;
+    margin-left: 0px;
+  }
+  .header .form .form-logo {
+    margin-top: 10px;
+    margin-left: 0px;
+  }
+  .header .form .form-logo .header__input {
+    padding: 0 15px;
+    margin-right: 10px;
+    width: 100px;
+    height: 20px;
+    font-size: 10px;
+  }
+  .header .form .form-logo .header__janer {
+    margin-left: 0px;
+  }
+  .header .form .form-logo .header__btn {
+    height: 20px;
+    font-size: 12px;
+    margin-left: 10px;
+    width: 80px;
+  }
+  .header__list {
+    margin-top: 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 370px;
+    margin: 0 auto;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .header__list .header__item {
+    width: 310px;
+    padding-top: 20px;
+    margin-top: 40px;
+    height: 355px;
+  }
+  .header__list .header__item .header__item-img {
+    margin-top: 8px;
+    font-size: 20px;
+    font-weight: 900;
+  }
+  .header__list .header__item button {
+    width: 120px;
+    height: 35px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+  }
+  .header__list .header__item .header__genre {
+    padding-top: 10px;
+    margin-left: 20px;
+  }
+  .header__list .header__item .header__list-time {
+    font-size: 16px;
+  }
+  .header__list .header__item .header__genre-list {
+    margin-top: 16px;
+    font-size: 10px;
+  }
+  .madal .content {
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+    padding: 0 20px;
+  }
+  .madal .content .madal__item-img {
+    font-size: 28px;
+    padding-top: 30px;
+  }
+  .madal .content .modal__dickireption {
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding-top: 20px;
+  }
+  .madal .content .time {
+    font-size: 15px;
+    padding-top: 20px;
+  }
+  .madal .content .button-madal {
+    font-size: 20px;
+    font-weight: 500;
+    width: 40px;
+    height: 25px;
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    max-width: 325px;
     margin: 0 auto;
   }
   .header .header__title {
